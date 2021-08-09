@@ -26,10 +26,10 @@ public class StageRequirement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.transform.TryGetComponent(out Collectable collectable))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Collectable"))
         {
             collected++;
-            Destroy(collectable.gameObject);
+            Destroy(other.gameObject);
             StartCoroutine(StageControl());
         }
     }
