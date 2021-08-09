@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1667145527033547803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667145527033547813}
+  - component: {fileID: 1667145527033547802}
+  m_Layer: 0
+  m_Name: MapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667145527033547813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667145527033547803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.819179, y: 15.1172085, z: 9.793915}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667145527033547802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667145527033547803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b169e2f5ba21b0846a2d3bace01802e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maps:
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  - {fileID: 3532446825705754258, guid: b1c46ffe13eca9e499ba45c19cc1e95a, type: 3}
+  collectable:
+  - {fileID: 3687854256297645588, guid: e3b7d443c01128a44a5f03e7ee2d0f32, type: 3}
+  - {fileID: 7701971685782007475, guid: 43aee702990291245aa64d4864fe1833, type: 3}
+  - {fileID: 7866834997044431015, guid: b185edc67f8029442bc178f42e1af713, type: 3}
+  - {fileID: 2050690795480266041, guid: e48eae7cd7e540947af44155d56dbf7f, type: 3}
+  - {fileID: 1158850015149497367, guid: 7955a21b8a659a74696c4ef348ce50dc, type: 3}
+  - {fileID: 2071287322008031513, guid: 573c32a4d1408a74bb7fa5073bf1b43a, type: 3}
+  - {fileID: 2829464398110610046, guid: 9322df264e65ae2499daa29bbf3f10d8, type: 3}
+  - {fileID: 8411310717080055133, guid: f309f68150d39a646a3ce7c312befd06, type: 3}
+  - {fileID: 8042660359726282995, guid: 52ad30e343c434844bc87fe7c431f295, type: 3}
+  - {fileID: 8478563367876580158, guid: acc5818930412134b962f725d882a6d1, type: 3}
+  mapDistance: 750
